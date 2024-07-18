@@ -126,6 +126,9 @@ Repo Contents:
     result:
 
     ![python_Ikc0gQXZ5t](https://github.com/arun-arunisto/OpenCVTutorial/assets/86800553/477351a5-d6dc-46f1-b358-c5f687b9b218)
+
+38. ImagesWithSpecificExposure
+        - To create images with specific exposure timings manually.
    
 
 
