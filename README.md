@@ -134,7 +134,8 @@ Repo Contents:
 > [!NOTE]
 > Google colab notebbok not working on git because file too large so for code [Click Here!!](https://colab.research.google.com/drive/18VFA_3xwqYcfGH8n6rskb0NxQM25cDBL?usp=sharing)
 
-
+40. Extracting Digits With Easy OCR
+    Extracting digits from an odometer using easy-ocr library.
     
 
         
