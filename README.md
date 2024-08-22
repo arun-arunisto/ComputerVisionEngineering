@@ -137,6 +137,9 @@ Repo Contents:
 
 39. Extracting Digits With Easy OCR
     Extracting digits from an odometer using easy-ocr library.
+
+40. Training a custom model using yolo with custom dataset
+    Trained a custom model using yolo with custom dataset of images with the size of 640x640 
     
 
         
