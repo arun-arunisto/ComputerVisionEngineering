@@ -139,7 +139,10 @@ Repo Contents:
     Extracting digits from an odometer using easy-ocr library.
 
 40. Training a custom model using yolo with custom dataset
-    Trained a custom model using yolo with custom dataset of images with the size of 640x640 
+    Trained a custom model using yolo with custom dataset of images with the size of 640x640
+
+41. preparing_dataset_with_image_annotation
+    This notebook will guide you how to use labels.txt file for image annotations and cropping
     
 
         
