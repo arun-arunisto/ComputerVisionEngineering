@@ -143,6 +143,9 @@ Repo Contents:
 
 41. preparing_dataset_with_image_annotation
     This notebook will guide you how to use labels.txt file for image annotations and cropping
+
+42. CNN-TRAINING-FILE
+    - ***dataset_processing.py :*** Preparing dataset with custom data using the labels.txt file downloaded from `cvat` tool with label and annotations, cropping and resizing images for keras (224x224) size. 
     
 
         
