@@ -146,7 +146,9 @@ Repo Contents:
 
 42. CNN-TRAINING-FILE
     - ***dataset_processing.py :*** Preparing dataset with custom data using the labels.txt file downloaded from `cvat` tool with label and annotations, cropping and resizing images for keras (224x224) size. 
-    
+
+43. Parquet Dataset Prepration
+    - ***parquet_dataset_preparation.py :*** Preparing parquet dataset using pandas, Pillow and pyarrow
 
         
 
