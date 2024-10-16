@@ -150,6 +150,7 @@ Repo Contents:
 43. Parquet Dataset Prepration
     - ***parquet_dataset_preparation.py :*** Preparing parquet dataset using pandas, Pillow and pyarrow
 
-        
+44. SwinTransformerForSingleImage
+    - This to demonstrate the swintransformer actual workflow with single image
 
     
