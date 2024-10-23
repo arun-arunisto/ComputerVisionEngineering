@@ -149,6 +149,8 @@ Repo Contents:
 
 43. Parquet Dataset Prepration
     - ***parquet_dataset_preparation.py :*** Preparing parquet dataset using pandas, Pillow and pyarrow
+44. Converting MRI Scans to Colored Images
+    - ***ConvertingMRIScanstoColoredImages.ipynb*** : Converting mri images to colored images using opencv, matplotlib and monai (medical open network for Artificial Intelligence)
 
 44. SwinTransformerForSingleImage
     - This to demonstrate the swintransformer actual workflow with single image
