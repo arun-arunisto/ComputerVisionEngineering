@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Capture Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        form {
+            margin-bottom: 20px;
+        }
+        video, canvas, img {
+            display: block;
+            margin: 10px 0;
+            border: 2px solid #333;
+            width: 320px;
+            height: 240px;
+        }
+        button {
+            padding: 8px 16px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Photo Capture Form</h1>
+    <form id="userForm" action="/submit_form" method="POST"  enctype="multipart/form-data">
+        {% csrf_token %}
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="id">ID:</label>
+        <input type="text" id="id" name="id" required><br><br>
+
+        <!-- Live Camera Feed -->
+        <video id="video" autoplay></video>
+        <!-- Image Element to Display Captured Photo -->
+        <img id="capturedImage" style="display: none;">
+
+        <!-- Hidden input to hold the captured photo data -->
+        <input type="file" id="photoData" name="photoData" accept="image/*" required style="display: none;">
+
+        <button type="button" onclick="capturePhoto()">Capture Photo</button><br><br>
+        <!-- <button type="submit">Submit</button> -->
+        <button type="submit" onclick="document.getElementById('userForm').submit();">Submit</button>
+
+    </form>
+
+    {% if data %}
+        <h2>{{ data.name }}'s Photo</h2>
+        <img src="{{ data.image.url }}" alt="Profile Photo">
+    {% endif %}
+
+    {% if error %}
+    <h2>{{ error }}</h2>
+    {% endif %}
+
+    <script>
+        // Access the camera
+        const video = document.getElementById('video');
+        const capturedImage = document.getElementById('capturedImage');
+        const canvas = document.createElement('canvas');
+        const context = canvas.getContext('2d');
+        const photoDataInput = document.getElementById('photoData');
+
+        // Ask for camera access and start video stream
+        navigator.mediaDevices.getUserMedia({ video: true })
+            .then(stream => {
+                video.srcObject = stream;
+            })
+            .catch(error => {
+                console.error("Error accessing the camera:", error);
+            });
+
+        // Capture photo from video feed
+        function capturePhoto() {
+            canvas.width = video.videoWidth;
+            canvas.height = video.videoHeight;
+            context.drawImage(video, 0, 0, canvas.width, canvas.height);
+            
+            // Convert the captured image to a base64 string
+            const imageData = canvas.toDataURL('image/png');
+            
+            // Create a Blob from the base64 data
+            const byteString = atob(imageData.split(',')[1]);
+            const mimeString = imageData.split(',')[0].split(':')[1].split(';')[0];
+            const ab = new ArrayBuffer(byteString.length);
+            const ia = new Uint8Array(ab);
+            for (let i = 0; i < byteString.length; i++) {
+                ia[i] = byteString.charCodeAt(i);
+            }
+            const blob = new Blob([ab], { type: mimeString });
+
+            // Create a File object from the Blob
+            const file = new File([blob], "captured_image.png", { type: mimeString });
+
+            // Set the file to the hidden input
+            const photoDataInput = document.getElementById('photoData');
+            const dataTransfer = new DataTransfer();
+            dataTransfer.items.add(file);
+            photoDataInput.files = dataTransfer.files;
+
+            // Display the captured photo in the img element
+            capturedImage.src = imageData;
+            capturedImage.style.display = 'block';
+            video.style.display = 'none';
+
+            alert("Photo captured!");
+        }
+
+
+        /* function getCookie(name) {
+        let cookieValue = null;
+        if (document.cookie && document.cookie !== '') {
+            const cookies = document.cookie.split(';');
+            for (let i = 0; i < cookies.length; i++) {
+                const cookie = cookies[i].trim();
+                if (cookie.startsWith(name + '=')) {
+                    cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                    break;
+                }
+            }
+        }
+        return cookieValue;
+    }
+
+    const csrfToken = getCookie('csrftoken');
+    
+    const csrfInput = document.createElement("input");
+    csrfInput.setAttribute("type", "hidden");
+    csrfInput.setAttribute("name", "csrfmiddlewaretoken");
+    csrfInput.setAttribute("value", csrfToken);
+    document.getElementById("userForm").appendChild(csrfInput); */
+
+    </script>
+</body>
+</html>
