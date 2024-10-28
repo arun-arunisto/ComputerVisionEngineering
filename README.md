@@ -160,4 +160,6 @@ Repo Contents:
 47. UsingApretrainedSwinTransformerForClassification
     - Using a pretrained swin transformer model for image classification
 
+      dataset used for training model you can find [here.](https://drive.google.com/drive/folders/12H6iDnv75ATb91KJ9YtxeFWPs-UwsDRg?usp=sharing)
+
     
