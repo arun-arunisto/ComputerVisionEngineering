@@ -154,7 +154,10 @@ Repo Contents:
 45. Face Match
     - ***face_match :*** Face match using face recognition
 
-44. SwinTransformerForSingleImage
+46. SwinTransformerForSingleImage
     - This to demonstrate the swintransformer actual workflow with single image
+
+47. UsingApretrainedSwinTransformerForClassification
+    - Using a pretrained swin transformer model for image classification
 
     
