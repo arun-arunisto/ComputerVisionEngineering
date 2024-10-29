@@ -164,3 +164,5 @@ Repo Contents:
 
 48. face_rec_web_cam
     - Using webcam for face recognition
+
+    ![Screenshot from 2024-10-29 11-16-08](https://github.com/user-attachments/assets/1f7c3833-525c-489e-b1bf-e58721530fb5)
