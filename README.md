@@ -162,4 +162,5 @@ Repo Contents:
 
       dataset used for training model you can find [here.](https://drive.google.com/drive/folders/12H6iDnv75ATb91KJ9YtxeFWPs-UwsDRg?usp=sharing)
 
-    
+48. face_rec_web_cam
+    - Using webcam for face recognition
