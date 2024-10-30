@@ -166,3 +166,9 @@ Repo Contents:
     - Using webcam for face recognition
 
     ![Screenshot from 2024-10-29 11-16-08](https://github.com/user-attachments/assets/1f7c3833-525c-489e-b1bf-e58721530fb5)
+
+49. liveness_detection_webcam
+    - Using webcam for liveness detection
+
+    ![Screenshot from 2024-10-30 17-03-33](https://github.com/user-attachments/assets/3c2e00c6-5899-4043-8c77-23f592963d8c)
+
