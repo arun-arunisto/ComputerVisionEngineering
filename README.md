@@ -172,3 +172,6 @@ Repo Contents:
 
     ![Screenshot from 2024-10-30 17-03-33](https://github.com/user-attachments/assets/3c2e00c6-5899-4043-8c77-23f592963d8c)
 
+50. compressing_image_using_python
+    - Compressing image size using python 
+
