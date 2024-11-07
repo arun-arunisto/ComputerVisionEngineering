@@ -175,3 +175,4 @@ Repo Contents:
 50. compressing_image_using_python
     - Compressing image size using python 
 
+    ![Screenshot from 2024-11-07 16-14-56](https://github.com/user-attachments/assets/0a11092b-eb6b-4007-956e-e29421aef3c6)
