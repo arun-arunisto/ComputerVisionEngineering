@@ -176,3 +176,8 @@ Repo Contents:
     - Compressing image size using python 
 
     ![Screenshot from 2024-11-07 16-14-56](https://github.com/user-attachments/assets/0a11092b-eb6b-4007-956e-e29421aef3c6)
+
+51. not_looking_at_camera.py
+    - Python program to detect the user looking into camera or not
+
+      ![Screenshot from 2024-11-08 19-25-05](https://github.com/user-attachments/assets/b45f3369-9d2f-423b-8d61-922297c491cc)
