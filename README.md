@@ -181,3 +181,8 @@ Repo Contents:
     - Python program to detect the user looking into camera or not
 
       ![Screenshot from 2024-11-08 19-25-05](https://github.com/user-attachments/assets/b45f3369-9d2f-423b-8d61-922297c491cc)
+
+52. eye_blink_detector.py
+    - Eye Blink Counter for liveness detection
+
+      ![Screenshot from 2024-11-18 14-10-29](https://github.com/user-attachments/assets/374074c1-c8f2-4be6-91b8-51040c299cf0)
