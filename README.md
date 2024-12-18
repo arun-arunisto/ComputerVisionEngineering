@@ -189,3 +189,8 @@ Repo Contents:
 
 53. GettingStartedWithDiffUsersPart1
     - Using diffuers to generatw ***Text-To-Image***
+
+54. detecting_age_n_gender
+    - detecting age and gender using `deepface` module
+
+      ![Screenshot from 2024-12-18 12-43-43](https://github.com/user-attachments/assets/29fd363f-ce33-47da-9c83-6d0172455e46)
