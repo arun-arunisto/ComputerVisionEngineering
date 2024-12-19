@@ -194,3 +194,8 @@ Repo Contents:
     - detecting age and gender using `deepface` module
 
       ![Screenshot from 2024-12-18 12-43-43](https://github.com/user-attachments/assets/29fd363f-ce33-47da-9c83-6d0172455e46)
+
+55. detecting_emotion
+    - detecting emotion using `deepface` module
+    
+    ![Screenshot from 2024-12-19 11-54-01](https://github.com/user-attachments/assets/701fdbc9-6d2c-4d7e-be5c-e4a41590864c)
