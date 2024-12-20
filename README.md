@@ -199,3 +199,8 @@ Repo Contents:
     - detecting emotion using `deepface` module
     
     ![Screenshot from 2024-12-19 11-54-01](https://github.com/user-attachments/assets/701fdbc9-6d2c-4d7e-be5c-e4a41590864c)
+
+56. face_detection_using_diff_yolo_models
+    - detecting faces and getting accuracy for different yolov models suchas `yolov8`, `yolov11s`, `yolov11n` & `yolov11m`
+
+    ![Screenshot from 2024-12-20 13-07-01](https://github.com/user-attachments/assets/b2f9c8b0-8b3a-4caf-83ec-1fc1c71999fb)
