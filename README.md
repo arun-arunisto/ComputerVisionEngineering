@@ -204,3 +204,8 @@ Repo Contents:
     - detecting faces and getting accuracy for different yolov models suchas `yolov8`, `yolov11s`, `yolov11n` & `yolov11m`
 
     ![Screenshot from 2024-12-20 13-07-01](https://github.com/user-attachments/assets/b2f9c8b0-8b3a-4caf-83ec-1fc1c71999fb)
+
+57. anti_spoof_detection
+    - anti spoof detection using `deepface` module
+
+    ![Screenshot from 2024-12-23 11-56-13](https://github.com/user-attachments/assets/a6dd08e9-95ea-447b-ae2b-821e92d67e10)
