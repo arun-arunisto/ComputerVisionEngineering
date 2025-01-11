@@ -209,3 +209,14 @@ Repo Contents:
     - anti spoof detection using `deepface` module
 
     ![Screenshot from 2024-12-23 11-56-13](https://github.com/user-attachments/assets/a6dd08e9-95ea-447b-ae2b-821e92d67e10)
+
+58. ConvertingGrayScaleImageToColor
+    - Converting grayscale images into color using opencv, deep neural network and streamlit
+
+    ![Screenshot from 2025-01-11 18-32-55](https://github.com/user-attachments/assets/a509bfdb-9e43-4395-b178-6af287f7bcdd)
+
+      
+
+    
+    
+![Screenshot from 2025-01-11 18-32-55](https://github.com/user-attachments/assets/2647c5a9-6a17-48f1-8aeb-6f9303448bb4)
