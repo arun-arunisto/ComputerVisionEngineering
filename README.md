@@ -214,3 +214,11 @@ Repo Contents:
     - Converting grayscale images into color using opencv, deep neural network and streamlit
 
     ![Screenshot from 2025-01-11 18-32-55](https://github.com/user-attachments/assets/a509bfdb-9e43-4395-b178-6af287f7bcdd)
+
+59. face_detection_using_insight_face
+    - Detecting faces and facial features using `insightface` and `opencv-python` module
+
+    ![Screenshot from 2025-01-17 18-09-01](https://github.com/user-attachments/assets/c0e620ae-5246-441b-b144-b04862e7e81d)
+
+      
+
