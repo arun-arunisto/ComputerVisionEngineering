@@ -220,5 +220,9 @@ Repo Contents:
 
     ![Screenshot from 2025-01-17 18-09-01](https://github.com/user-attachments/assets/c0e620ae-5246-441b-b144-b04862e7e81d)
 
-      
+60. face_recognition_using_insight_face
+    - Recognising faces using `insightface` and `opencv-python` module
 
+    ![Screenshot from 2025-01-21 16-02-35](https://github.com/user-attachments/assets/a3994891-941e-4739-852f-dd0d484390d4)
+
+    
