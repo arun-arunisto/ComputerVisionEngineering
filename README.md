@@ -225,4 +225,6 @@ Repo Contents:
 
     ![Screenshot from 2025-01-21 16-02-35](https://github.com/user-attachments/assets/a3994891-941e-4739-852f-dd0d484390d4)
 
+61. Ultralytics_yolo11
+    - Using yolo11 for different tasks such as detection, segmentation, instant segmentation, post detection, etc
     
