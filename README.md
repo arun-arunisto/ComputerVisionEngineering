@@ -228,3 +228,7 @@ Repo Contents:
 61. Ultralytics_yolo11
     - Using yolo11 for different tasks such as detection, segmentation, instant segmentation, post detection, etc
     
+62. pose_estimation_using_yolo
+    - using yolo11 for pose estimation
+   
+    <img width="1920" height="1080" alt="Screenshot from 2025-08-05 18-41-07" src="https://github.com/user-attachments/assets/06da806d-7ee0-4807-ab16-d94188431b17" />
